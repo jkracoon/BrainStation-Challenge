@@ -1,0 +1,17 @@
+Let maxNumber represent the biggest number, set it to zero to start
+While there are still numbers left in the list
+	Look at the next number in the list
+	Compare it to the maxNumber
+		If next number is smaller than maxNumber
+			Set maxNumber to that number
+Report maxNumber as the biggest in the list
+
+
+
+My anwser: 
+If the next number is larger than (not smaller than) maxNumber, set maxNumber to that number 
+
+Also the comparison should start with the frist number in the list.  
+Meaning the maxNumber should be set at the firt number in the list at the beginning. 
+If we set the maxNumber =0 from the beginning, and the list of number are all negative numbers (<0). 
+This code will return 0 as the maxNumber, which is wrong, because the list does not have 0 in it. 
